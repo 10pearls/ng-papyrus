@@ -5,6 +5,7 @@
     "jquery": "registry:dt/jquery#1.10.0+20160417213236"
   },
   "globalDevDependencies": {
+    "angular-mocks": "registry:dt/angular-mocks#1.5.0+20160608104721",
     "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#5c182b9af717f73146399c2485f70f1e2ac0ff2b"
   }
 }

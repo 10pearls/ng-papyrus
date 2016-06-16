@@ -4,7 +4,7 @@
   "description": "Chat client for Papyrus",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js --hot --inline",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "postinstall": "typings install",
     "lint": "tslint -c ./tslint.json src/*.ts"
   },
@@ -20,9 +20,18 @@
   "author": "Mohammad Umair Khan",
   "license": "MIT",
   "devDependencies": {
+    "angular-mocks": "^1.5.7",
     "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.21.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-typescript-preprocessor": "^0.2.0",
+    "karma-webpack": "^1.7.0",
     "node-sass": "^3.7.0",
+    "phantomjs-polyfill": "0.0.2",
+    "phantomjs-prebuilt": "^2.1.7",
     "raw-loader": "^0.5.1",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
