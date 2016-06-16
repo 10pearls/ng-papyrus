@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Chat client for Papyrus",
   "scripts": {
-    "start": "webpack-dev-server --config webpack/webpack.dev.js --inline --hot",
+    "start": "webpack-dev-server --config webpack/webpack.dev.js --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "typings install",
     "lint": "tslint -c ./tslint.json src/*.ts"
@@ -20,8 +20,12 @@
   "author": "Mohammad Umair Khan",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "html-webpack-plugin": "^2.21.0",
+    "node-sass": "^3.7.0",
     "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "tslint": "^3.11.0",
     "typescript": "^1.8.10",
@@ -30,6 +34,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "angular": "^1.5.7"
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-aria": "^1.5.7",
+    "angular-material": "^1.0.9"
   }
 }

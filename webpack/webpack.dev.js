@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    './src/index.ts'
+    './app/src/index.ts'
   ],
   output: {
     filename: 'build.js',
@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: './app/index.html',
       inject: 'body',
       hash: true
     })
