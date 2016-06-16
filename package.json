@@ -1,0 +1,35 @@
+{
+  "name": "ng-papyrus",
+  "version": "0.0.0",
+  "description": "Chat client for Papyrus",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/webpack.dev.js --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "lint": "tslint -c ./tslint.json src/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-mohuk:10pearls/ng-papyrus.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Chat",
+    "SocketIO"
+  ],
+  "author": "Mohammad Umair Khan",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.21.0",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.11.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.2.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
