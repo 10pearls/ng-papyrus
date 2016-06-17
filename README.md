@@ -2,10 +2,21 @@
 
 [![CircleCI](https://circleci.com/gh/10pearls/ng-papyrus/tree/master.svg?style=svg)](https://circleci.com/gh/10pearls/ng-papyrus/tree/master)
 
-Totally awesome chat client which will work !
+## Dev Environment Setup
+- NodeJS v4.2.x or higher
 
-## Development
-```
+```bash
 $ npm install
 $ npm run start
 ```
+
+## Testing
+```bash
+$ npm run test
+```
+
+## Contribution
+Please see [Contribution Guide](https://github.com/10pearls/ng-papyrus/blob/master/CONTRIBUTING.md)
+
+## License
+[MIT](https://github.com/10pearls/ng-papyrus/blob/master/LICENSE.md)
