@@ -8,9 +8,9 @@ import * as ngMaterial from 'angular-material';
 import 'angular-material/angular-material.css';
 
 // src
-import App from './app.controller.ts';
+import App from './app.component.ts';
 
 angular.module('app', [
   ngMaterial
 ])
-  .controller('App', App);
+  .component('app', new App());
