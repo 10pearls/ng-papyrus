@@ -6,6 +6,7 @@ import * as ngMaterial from 'angular-material';
 
 //styles
 import 'angular-material/angular-material.css';
+import './styles.scss';
 
 // src
 import App from './app.component.ts';
