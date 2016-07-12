@@ -4,4 +4,7 @@ node_modules
 # Typescript Typings
 typings
 
+# Webstorm
+.idea
+
 
