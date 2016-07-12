@@ -1,7 +1,7 @@
 module.exports = [
     {
         test: /\.ts(x?)$/,
-        loader: 'ts-loader'
+        loader: 'ng-annotate!ts-loader'
     },
     {
         test: /\.css$/,
