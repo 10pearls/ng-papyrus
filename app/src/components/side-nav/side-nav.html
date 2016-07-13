@@ -1,0 +1,33 @@
+<section layout="row flex">
+  <md-sidenav
+    class="md-sidenav-left"
+    md-component-id="left"
+    md-is-open="true"
+    md-is-locked-open="$mdMedia('gt-sm')"
+    md-whiteframe="2">
+    <md-toolbar class="md-theme-indigo">
+      <h2 class="md-toolbar-tools">Nav Header</h2>
+    </md-toolbar>
+    <md-content layout-padding>
+      <md-list flex>
+        <md-subheader>
+          <md-input-container class="md-icon-float md-block">
+            <!-- Use floating label instead of placeholder -->
+            <label>Search</label>
+            <!--<md-icon md-svg-src="someSearchIcon" class="search"></md-icon>-->
+            <input type="text">
+          </md-input-container>
+        </md-subheader>
+        <md-list-item class="md-2-line">
+          <img ng-src="{{someImage}}" class="md-avatar" alt="{{imageName}}" />
+          <div class="md-list-item-text">
+            <h3>Some Guy</h3>
+            <p>Secondary text</p>
+          </div>
+        </md-list-item>
+        <md-divider ></md-divider>
+      </md-list>
+    </md-content>
+  </md-sidenav>
+</section>
+
